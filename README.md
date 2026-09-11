@@ -1,11 +1,11 @@
 # Lloyd Edge Instagram Content Preview
 
-Responsive static preview for Lloyd Edge / Aus Property Professionals.
+Updated approved Version 2, with Positively Geared and Set For Life colours. Includes 31 planned content items, three original pinned posts, 14 Reels, two Story sequences, six highlights and the Before You Offer checklist.
 
-Open index.html through a static web server. Responsive mode fits the current device; Desktop and Mobile buttons simulate those views. The standalone Instagram experience is preview.html.
+Desktop displays six tiles per row; mobile displays three. Responsive, Desktop and Mobile controls are available in index.html. The standalone experience is preview.html.
 
-Includes three existing pinned Instagram posts with original images, exact captions and an engagement/comment snapshot dated 11 September 2026. Share counts were unavailable. These appear before the 31 planned content items (29 planned feed posts; 32 feed tiles including the pins), 14 Reel covers with scripts, two Story sequences, six highlight covers and the Before You Offer checklist. The two client testimonial posts are BOF carousels with profile-link CTAs. Reels retain the approved covers and play 14 existing YouTube Shorts as illustrative footage in a 9:16 player. Playback requires an internet connection. The source mapping is in the client handoff. Likes, saves and comments are stored only in the visitor's browser; nothing is posted to Instagram. Every feed post has an Instagram-style comment composer. Original captured comments remain separate from editable visitor comments. Extra source/purchase/download footer buttons are removed from post viewers; the book and checklist resources remain in their profile collections.
+Testimonial cover and closing slides use yellow, with cream interiors and white stars. Educational slides use #f4f7de. Carousel closing slides feature centred calls to action. Hosted artwork is optimised from the approved PNG exports.
 
-Hosted images are optimised WebP versions of the approved PNG exports. Fonts and assets are local to this repository. The client logo and photography are retained brand assets. The six highlight icons are based on Lucide; see LICENSE-ICONS.txt.
+Reels play existing YouTube Shorts in a vertical player and require internet access. Comments, likes and saves are stored in the visitor browser only; no activity is posted to Instagram. Original pinned engagement is a captured snapshot.
 
-GitHub Pages serves the root of the deployment branch. No build step, credentials or backend are required.
+GitHub Pages serves the root of codex/live-preview. No build or backend is required. Fonts and artwork are served locally. Highlight icons use Lucide; see LICENSE-ICONS.txt.
