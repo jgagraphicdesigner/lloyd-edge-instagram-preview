@@ -22,5 +22,14 @@
 .resource-shortcuts svg{width:15px;height:15px}
 @media(max-width:760px){.highlight .ring>span{width:57px;height:57px}.resource-shortcuts{padding:0 17px 21px;gap:12px 20px;font-size:11px}}
 
+/* Existing Instagram posts: immutable engagement snapshot and captured comments. */
+.pin-icon{color:white}.pin-icon svg{transform:rotate(15deg)}
+.original-post-media .post-image{aspect-ratio:1/1}
+.instagram-engagement{padding:5px 19px 13px;font-size:14px;display:grid;gap:5px;flex:none}
+.captured-count{font-size:13px;color:#aaa;text-align:left;padding:0}
+.instagram-comments{padding:15px 19px 20px;border-top:1px solid #292929;flex:none;overflow-wrap:anywhere}
+.instagram-comments h2{font-size:14px;margin:0 0 18px}.instagram-comment{font-size:13px;line-height:1.6;margin:0 0 19px}.instagram-comment strong{font-size:12px}.instagram-comment p{margin:4px 0;white-space:pre-wrap}.instagram-comment small{color:#999;font-size:11px}.instagram-comment.is-reply{margin-left:19px;padding-left:12px;border-left:1px solid #444}.snapshot-note{font-size:11px;line-height:1.6;color:#999;margin:20px 0 0}.post-panel:has(.instagram-comments) .caption{flex:none;overflow:visible}.feed-card>.instagram-engagement{padding-left:0;padding-right:0}
+@media(max-width:760px){.post-panel .instagram-engagement{order:4}.post-panel .instagram-comments{order:6}.post-panel:has(.instagram-comments) .caption{padding-bottom:16px}.post-dialog-layout .original-post-media .post-image{aspect-ratio:1/1;max-height:none}.feed-card>.instagram-engagement{padding-left:14px;padding-right:14px}.instagram-comments{padding-bottom:65px}}
+
 .mobile-top strong{min-width:0}.bio{overflow-wrap:anywhere}.caption{overflow-wrap:anywhere}.mobile-nav{height:calc(62px + env(safe-area-inset-bottom))}.mobile-top span{white-space:nowrap}@media(max-width:380px){.mobile-top span{display:none}.profile{grid-template-columns:76px minmax(0,1fr);gap:12px;padding-left:12px;padding-right:12px}.avatar-button{width:72px;height:72px}.profile-heading .button{font-size:12px;padding:8px}.bio{font-size:12px}.stats{font-size:11px;gap:6px 10px}.tabs{gap:20px}.settings{right:0}.tab{font-size:11px}.viewer-top strong{font-size:11px;overflow-wrap:anywhere}.viewer-top .viewer-tag{font-size:10px;padding:3px 5px}}
 @media(max-width:760px){.profile>div{display:contents}.profile>.avatar-button{grid-column:1;grid-row:1 / span 2}.profile-heading{grid-column:2;grid-row:1;align-self:end;margin-bottom:0}.stats{grid-column:2;grid-row:2;align-self:start;margin-bottom:0}.profile .bio{grid-column:1 / -1}.profile{row-gap:12px}.bio p{margin:1px 0}}
