@@ -17,10 +17,7 @@
 .highlight .ring{background:none;border:1px solid #49424f;padding:3px}
 .highlight .ring>span{width:71px;height:71px;border:0;background:none;overflow:hidden}
 .highlight .ring img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%}
-.resource-shortcuts{display:flex;flex-wrap:wrap;gap:12px 25px;padding:0 26px 25px;color:#cbb8e5;font-size:12px}
-.resource-shortcuts button{display:inline-flex;gap:7px;align-items:center;padding:0}
-.resource-shortcuts svg{width:15px;height:15px}
-@media(max-width:760px){.highlight .ring>span{width:57px;height:57px}.resource-shortcuts{padding:0 17px 21px;gap:12px 20px;font-size:11px}}
+@media(max-width:760px){.highlight .ring>span{width:57px;height:57px}}
 
 /* Instagram-style discussion and comments. */
 .pin-icon{color:white}.pin-icon svg{transform:rotate(15deg)}
